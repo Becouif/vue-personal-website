@@ -15,7 +15,8 @@ import '../assets/css/home.css'
                      <h3>I build things for the web</h3>
                      <div class="cv-btn">
                         <!-- <button @click="downloadCV">Download new</button> -->
-                        <a href="/public/cv/blessing-afolabi-full-stack-developer.pdf" download target="_blank">Donwload CV</a>
+                        <!-- <a href="/public/cv/blessing-afolabi-full-stack-developer.pdf" download target="_blank">Donwload CV</a> -->
+                        <a href="/cv/blessing-afolabi-full-stack-developer.pdf" download target="_blank">Donwload CV</a>
                      </div>
                   </div>
                </div>
