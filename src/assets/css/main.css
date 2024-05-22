@@ -140,7 +140,7 @@ a {
 
   .navbar {
     position: absolute;
-    background-color: rgb(236, 241, 250);
+    /* background-color: rgb(236, 241, 250); */
     width: 100%;
     left: 0px;
     top: 60px;

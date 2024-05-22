@@ -16,7 +16,7 @@ import '../assets/css/portfolio.css'
             <img class="card-img" src="../assets/img/portfolio/cuisine-share.png" alt="cuisine-share"/>
             <div class="overlay">
               <!-- <span class="fa f"></span> -->
-              <h2>Cuisine Share</h2>
+              <h5>Cuisine Share</h5>
               <p>a cuisine sharing platform</p>
             </div>
           <!-- </div> -->
@@ -31,7 +31,7 @@ import '../assets/css/portfolio.css'
           <img class="card-img"  src="../assets/img/portfolio/monstergame.png" alt="monster game"/>
           <div class="overlay">
             <!-- <span class="fa f"></span> -->
-            <h2>Monster Game</h2>
+            <h5>Monster Game</h5>
           <p>a mini monster game</p>
           </div>
 
@@ -44,7 +44,7 @@ import '../assets/css/portfolio.css'
           <img class="card-img"  src="../assets/img/portfolio/movie-series-overview.png" alt="movie overview"/>
           <div class="overlay">
             <!-- <span class="fa f"></span> -->
-            <h2>Movie Series Overview</h2>
+            <h5>Movie Series Overview</h5>
             <p>a quick movie or series search</p>
           </div>
 
@@ -57,8 +57,8 @@ import '../assets/css/portfolio.css'
           <img class="card-img" src="../assets/img/portfolio/vue-id-card-maker.png" alt="ID Card"/>
           <div class="overlay">
             <!-- <span class="fa f"></span> -->
-            <h2>ID Card</h2>
-          <p>an id card generator</p>
+            <h5>ID Card</h5>
+            <p>an id card generator</p>
           </div>
 
         </div>
@@ -151,9 +151,23 @@ import '../assets/css/portfolio.css'
   font-size: 0.9rem;
 }
 .overlay {
+  /* margin: 20px; */
+  /* width: fit-content; */
   margin-top: 15px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     color: #fff;
+    /* opacity: 0.2; */
 }
+h5 {
+  margin: 0.7rem;
+  text-align: center;
+
+}
+p {
+  margin:0.5rem;
+  text-align: center;
+}
+
+
 </style>

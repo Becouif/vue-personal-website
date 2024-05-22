@@ -3,14 +3,9 @@ import { ref } from 'vue';
 import '../assets/css/header.css';
 
 const isMenuOpen = ref(false);
-const isDropdownOpen = ref(false);
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
-};
-
-const toggleDropdown = () => {
-  isDropdownOpen.value = !isDropdownOpen.value;
 };
 </script>
 
@@ -26,12 +21,12 @@ const toggleDropdown = () => {
         <div class="hamburger" @click="toggleMenu">
           <i class="fa fa-bars"></i>
         </div>
-        <div class="navbar" :class="{ 'open': isMenuOpen }">
+        <div class="navbar" :class="{ 'show': isMenuOpen }">
           <ul>
             <li><a href="#home" class="active">Home</a></li>
-            <li class="dropdown-toggle" @click.stop="toggleDropdown">
+            <li class="dropdown-toggle">
               <a href="#about">About</a>
-              <ul v-show="isDropdownOpen" class="dropdown-menu">
+              <ul class="dropdown-menu">
                 <li><a href="#team">Our Team</a></li>
                 <li><a href="#history">Our History</a></li>
               </ul>

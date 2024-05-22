@@ -1,5 +1,5 @@
 <script setup>
-import Header from './components/Header.vue';
+import Header from './components/Header1.vue';
 import Home from './components/Home.vue';
 import About from './components/About.vue';
 import Services from './components/Services.vue';

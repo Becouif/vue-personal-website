@@ -36,6 +36,7 @@ header .row {
 }
 
 .brand-name a {
+  /* margin-right: 50px; */
   font-size: 22px;
   font-weight: 500;
   color: rgb(236, 241, 250);
@@ -70,7 +71,6 @@ header .row {
 .navbar ul li {
   display: inline;
   margin-left: 35px;
-  position: relative;
 }
 
 .navbar ul li a {
@@ -78,6 +78,7 @@ header .row {
   line-height: 72px;
   color: rgb(236, 241, 250);
   font-weight: 600;
+  /* display: block; */
   position: relative;
 }
 
@@ -111,89 +112,13 @@ header .row {
   left: 0;
 }
 
-a.logo img.img {
-  width: 140px;
-  height: 100px;
-  margin-bottom: -20px;
+a.logo img.img{
+  /* margin-right: 10rem; */
+  /* padding-left: 50px; */
+width: 140px;
+height: 100px;
+margin-bottom: -20px;
+/* padding: -100px; */
+/* margin: -100px; */
 }
 
-/* Dropdown Menu CSS */
-.navbar ul li .dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  margin-top: 10px;
-}
-
-.navbar ul li .dropdown-menu li {
-  display: block;
-  margin: 0;
-}
-
-.navbar ul li .dropdown-menu li a {
-  padding: 12px 16px;
-  color: #000;
-  text-decoration: none;
-  display: block;
-}
-
-.navbar ul li .dropdown-menu li a:hover {
-  background-color: #ddd;
-}
-
-@media screen and (max-width: 800px) {
-  .navbar ul {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-
-  .navbar.open ul {
-    display: block;
-  }
-
-  .hamburger .fa {
-    display: block;
-  }
-
-  .navbar ul li {
-    display: block;
-    margin: 0;
-  }
-
-  .navbar ul li a {
-    line-height: initial;
-    padding: 10px 15px;
-    color: #000;
-  }
-
-  .navbar ul li .dropdown-menu {
-    position: relative;
-    box-shadow: none;
-    margin-top: 0;
-  }
-
-  .navbar ul li .dropdown-menu li a {
-    color: #000;
-  }
-}
-
-@media screen and (min-width: 801px) {
-  .hamburger .fa {
-    display: none;
-  }
-
-  .navbar ul {
-    display: flex;
-  }
-
-  .navbar ul li:hover .dropdown-menu {
-    display: block;
-  }
-}

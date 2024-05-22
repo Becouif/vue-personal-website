@@ -24,7 +24,7 @@ let currentYear = ref(year);
       </footer>
       <section class="copyright">
          <div class="container">
-            <p> © {{currentYear}}<span id="year"></span> | Developed By Blessing Afolabi. | All rights reserved.</p>
+            <p> © 2024 - {{currentYear}}<span id="year"></span> | Developed By Blessing Afolabi. | All rights reserved.</p>
          </div>
       </section>
       <div class="lightbox hide">
