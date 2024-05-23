@@ -59,7 +59,7 @@ export default {
                           <input type="text" v-model="name" class="form-control" name="name" placeholder="Name" />
                       </div>
                       <div class="col-6">
-                          <input type="email" v-model="email" class="form-control" name="email" placeholder="Email" />
+                          <input type="email" v-model="email" class="form-control" name="email" placeholder="Your Email" />
                       </div>
                     </div>
                     <div class="row">
