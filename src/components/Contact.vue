@@ -44,7 +44,7 @@ export default {
                <div class="contact-form">
                   <div class="row">
                      <div class="contact-text">
-                        <h2>Drop Me message</h2>
+                        <h2>Drop me a message</h2>
                         <p>My inbox is always open I'll try my best to get back to you!</p>
             </div>
         </div>
