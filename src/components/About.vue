@@ -20,11 +20,11 @@ import '../assets/css/about.css';
                   </div>
                   <div class="text">
                      <h4>I'm Blessing Afolabi</h4>
-                     <h6>A <span>full stack Web developer</span> from West Africa
+                     <h6>A <span>Full stack Web developer</span> from West Africa
                      </h6>
                      <p>I'm passionate about creating and developing seamless, unique yet visually stunning web applications/products.<br>From responsive designs
                         to efficient database integration, I deliver exceptional results.<br>I specialize in building Websites from small to medium size businesses.
-                        Affordable rates and timely delivery are guaranteed.<br>Let collaborate and build your unique web application today.
+                        <br>Affordable rates and timely delivery are guaranteed.<br>Let collaborate and build your unique web application today.
                      </p>
                      <!-- <p>I'm passionate about creating and developing clean, unique, elegant products. I specialize in
                         building Websites for small to medium size business. I keep my code clean, readable, modular and
